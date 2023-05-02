@@ -5,7 +5,7 @@ public class Wallet {
     private Integer ID;
     private Integer balance = 0;
 
-    Wallet(Integer ID) {
+    public Wallet(Integer ID) {
         this.ID = ID;
     }
 
@@ -13,7 +13,7 @@ public class Wallet {
         return ID;
     }
 
-    void setID(Integer ID) {
+    public void setID(Integer ID) {
         this.ID = ID;
     }
 
@@ -21,7 +21,7 @@ public class Wallet {
         return balance;
     }
 
-    void setBalance(Integer balance) {
+    public void setBalance(Integer balance) {
         this.balance = balance;
     }
 }
